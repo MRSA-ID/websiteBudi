@@ -18,12 +18,13 @@ function tambah($data){
 	$nama = $_POST["nama_input"];
 	$email = $_POST["email_input"];
 	$pesan = $_POST["pesan"];
-	$tgl = date('y-m-d');
+	$perihal = $_POST["perihal"];
+	$tgl = date('d-m-y');
 
-	$query = "INSERT INTO data_user VALUES('$nama', '$email', '$pesan', '$tgl')";
+	$query = "INSERT INTO data_user VALUES('$nama', '$email', '$pesan', '$perihal', '$tgl')";
 
 	mysqli_query($conn, $query);
-	
+
 	return mysqli_affected_rows($conn);
 }
 

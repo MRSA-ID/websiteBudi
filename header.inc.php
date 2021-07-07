@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<table id="header" class="template_header" border="1">
+	<table id="header" class="template_header">
 		<tr>
 			<td>
 				<img src="assets/budi.jpg" alt="Foto profile budi" class="profile">
@@ -17,7 +17,7 @@
 			</td>
 		</tr>
 	</table>
-	<table id="content" class="template_content" border="1">
+	<table id="content" class="template_content" >
 		<tr>
 			<td class="menu">
 				<ul>

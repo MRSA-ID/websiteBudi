@@ -2,7 +2,7 @@
 	include 'header.inc.php';
  ?>
 	
- 	SELAMAT DATANG BAPAK DAN IBU
+ 	<h1 class="fancy">Selamat datang di websiteku</h1>
  
 
 <?php
